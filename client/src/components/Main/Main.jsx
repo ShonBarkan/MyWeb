@@ -1,6 +1,6 @@
 import React from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import MyContent from './Content/Content';
+import { Layout, Menu, theme } from 'antd';
+import ToDos from '../ToDos/‏‏ToDos2/ToDos';
 const { Header, Content, Footer } = Layout;
 const items = new Array(15).fill(null).map((_, index) => ({
   key: index + 1,
@@ -36,18 +36,17 @@ const Main = () => {
               margin: '40px',
               padding: '20px',
               background: colorBgContainer,
-              minHeight: 280,
               borderRadius: borderRadiusLG,
             }}
-          > 
-          <MyContent/>
+          >
+            <ToDos/>
           </Content>
           <Footer
             style={{
               textAlign: 'center',
             }}
           >
-            Ant Design ©{new Date().getFullYear()} Created by Ant UED
+            Shon Barkan ©{new Date().getFullYear()} Created by Me
           </Footer>
         </Layout>
       );

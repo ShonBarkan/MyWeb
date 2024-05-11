@@ -1,6 +1,6 @@
 #name{
     background: linear-gradient(to left,
-    violet, indigo, blue, green , yellow , orange , red );
+    #C40C0C, #FF6500, #FF8A08, #FFC100 );
     background-clip: text;
     display: inline;
     color:  transparent;
